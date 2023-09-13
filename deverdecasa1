@@ -1,0 +1,27 @@
+---
+title: "Dever de Casa Metodologia (1)"
+author: BARREIRA, R; STAVALE, C.
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: inline
+---
+
+## Pacotes Usados
+
+```{r}
+library(dplyr) # mais comandos, incluindo pipe, filter e outros.
+library(janitor) # mais comandos, incluindo tabyl para melhor distribuição de frequências
+library(ggplot2) # mais opções de gráfico
+```
+
+## **Estatística Básica** (Bussab e Morettin) Capítulo 2: exercício 9
+
+<div>
+
+9: A MB Indústria e Comércio, desejando melhorar o nível de seus funcionários em cargos de chefia, montou um curso experimental e indicou 25 funcionários para a primeira turma. Os dados referentes à seção a que pertencem, notas e graus obtidos no curso\
+estão na tabela a seguir. Como havia dúvidas quanto à adoção de um único critério de avaliação, cada instrutor adotou seu próprio sistema de aferição. Usando dados daquela tabela, responda às questões:
+
+</div>
+
+**Antes de responder a questão precisamos importar a tabela exposta no livro. Foi necessário transcrever a tabela em formato csv e importar**
