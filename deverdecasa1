@@ -1,7 +1,7 @@
 ---
-title: "Dever de Casa Metodologia (1)"
+title: "Dever de Casa Metodologia"
 author: BARREIRA, R; STAVALE, C.
-format: html
+format: pdf
 editor: visual
 editor_options: 
   chunk_output_type: inline
@@ -27,8 +27,349 @@ estão na tabela a seguir. Como havia dúvidas quanto à adoção de um único c
 **Antes de responder a questão precisamos importar a tabela exposta no livro. Foi necessário transcrever a tabela em formato csv e importar**
 
 ```{r}
-Tab29 <- read.csv("Tab29.csv") #importando tabela no formato csv, é possível usar o botão import na aba "enviroment" também.
+Tab29 <- read.csv("https://raw.githubusercontent.com/Milvann/deverdecasa/main/Tab29.csv") #importando tabela no formato csv
 
 View(Tab29) # abrindo a tabela recém importada
 
 ```
+
+<div>
+
+\(a\) Após observar atentamente cada variável, e com o intuito de resumi-las, como você identificaria (qualitativa ordinal ou nominal e quantitativa discreta ou contínua) cada uma das 9 variáveis listadas?
+
+</div>
+
+R: Dentre as variáveis qualitativas, ainda podemos fazer uma distinção entre dois tipos: \*\*variável qualitativa nomina\*\*l \*\*(Funcionário),\*\* para a qual não existe nenhuma ordenação nas possíveis realizações, e variável \*\*qualitativa ordinal (Notas),\*\* para a qual existe uma ordem nos seus resultados.
+
+Variáveis Quantitativas: são as características que podem ser medidas em uma escala quantitativa, ou seja, apresentam valores numéricos que fazem sentido. Podem ser contínuas ou discretas.
+
+Variáveis discretas: características mensuráveis que podem assumir apenas um número finito ou infinito contável de valores e, assim, somente fazem sentido valores inteiros. Geralmente são o resultado de contagens. Exemplos: número de filhos, número de bactérias por litro de leite, número de cigarros fumados por dia.
+
+Variáveis contínuas: características mensuráveis que assumem valores em uma escala contínua (na reta real), para as quais valores fracionais fazem sentido. Usualmente devem ser medidas através de algum instrumento. Exemplos: peso (balança), altura (régua), tempo (relógio), pressão arterial, idade.
+
+<div>
+
+\(b\) Compare e indique as diferenças existentes entre as distribuições das variáveis Direito, Política e Estatística.
+
+</div>
+
+Para isso, vamos usar alguns comandos básicos nativos do R.
+
+```{r}
+summary(Tab29$dir)
+table(Tab29$dir)
+```
+
+```{r}
+summary(Tab29$pol)
+table(Tab29$pol)
+```
+
+```{r}
+summary(Tab29$est)
+table(Tab29$est)
+```
+
+R: Tendo em vista as notas apresentadas pelos funcionários da Empresa MB Indústria e Comércio, infere-se que a maior média apresentada foi na disciplina de Direito, cujas notas, coincidentemente, foram todas iguais a 9.
+
+A menor média apresentada foi 6,5 na disciplina de Política. Entretanto, a menor nota, 4, ocorreu na disciplina de Estatística.
+
+<div>
+
+\(c\) Construa o histograma para as notas da variável Redação.
+
+</div>
+
+Para isso, usaremos um histograma nativo do R:
+
+```{r}
+hist(Tab29$red, main = "Notas da Disciplina Redação", xlab = "Notas Redação", ylab = "Frequência", labels = TRUE, ylim=c(0, 7)) # historama padrão do R com pouca customização
+```
+
+<div>
+
+\(d\) Construa a distribuição de freqüências da variável Metodologia e faça um gráfico para indicar essa distribuição.
+
+</div>
+
+```{r}
+tabyl(Tab29$met) #usamos tabyl para mais opções
+ggplot(Tab29, mapping = aes(x = met, fill = met)) + #usamos ggplot para mais opções de customização.
+geom_bar() +
+  labs(title = "NOTAS METODOLOGIA", x = "NOTAS", y = "Quantidade" )
+```
+
+<div>
+
+\(e\) Sorteado ao acaso um dos 25 funcionários, qual a probabilidade de que ele tenha obtido grau A em Metodologia?
+
+</div>
+
+```{r}
+tabyl(Tab29$met)
+```
+
+R: São 7 chances em 25 funcionários, o que equivale a 28% de chances de um funcionário aletório ter obtido nota A. Conforme a função tabyl acima demonstra.
+
+<div>
+
+\(f\) Se, em vez de um, sorteássemos dois, a probabilidade de que ambos tivessem tido A em Metodologia é maior ou menor do que a resposta dada em (e)?
+
+</div>
+
+```{r}
+0.28 * 6/25
+```
+
+R: Usando probabilidade simples de tirarmos A e A, temos: 7/25 x 6/25 = 0,0672 (6%) de chances de que ambos os funcionaários obtiveram nota A.
+
+<div>
+
+\(g\) Como é o aproveitamento dos funcionários na disciplina Estatística, segundo a seção a que eles pertencem?
+
+</div>
+
+Para isso, tiraremos a média por grupo e depois analisaremos o gráfico.
+
+```{r}
+aggregate(Tab29$est, list(Tab29$secao), FUN=mean)
+ggplot(Tab29, aes(x = secao, y = est)) +
+  geom_point(aes(color = secao)) +
+labs(title = "APROVEITAMENTO ESTATÍSTICA POR SETOR ", x = "SEÇÕES", y = "NOTAS DE ESTATÍSTICA" )
+```
+
+## **Estatística Básica** (Bussab e Morettin) Capítulo 3: exercício 21
+
+<div>
+
+21\. O que acontece com a mediana, a média e o desvio padrão de uma série de dados quando: (a) cada observação é multiplicada por 2? (b) soma-se 10 a cada observação? (c) subtrai-se a média geral⎯x de cada observação? (d) de cada observação subtrai-se⎯x e divide-se pelo desvio padrão dp(x)?
+
+</div>
+
+Exercício resolvido em sala de aula para demonstrar a importância da manipulação dos dados para melhor inferências estatísticas.
+
+## **Estatística Básica** (Bussab e Morettin) Capítulo 3: exercício 33
+
+<div>
+
+33. Um órgão do governo do estado está interessado em determinar padrões sobre o investimento em educação, por habitante, realizado pelas prefeituras. De um levantamento de dez cidades, foram obtidos os valores (codificados) da tabela abaixo:
+
+</div>
+
+Primeiramente, vamos transcrever a tabela e importá-la.
+
+```{r}
+Tab333 <- read.csv("https://raw.githubusercontent.com/Milvann/deverdecasa/main/Tab333.csv") #importando tabela no formato csv, é possível usar o botão import na aba "enviroment" também.
+
+View(Tab333) # abrindo a tabela recém importada
+```
+
+Em seguida a questão solicita algumas modificações nos dados:
+
+<div>
+
+Nesse caso, será considerado como investimento básico a média final das observações, calculada da seguinte maneira:\
+1. Obtém-se uma média inicial.\
+2.Eliminam-se do conjunto aquelas observações que forem superiores à média inicial mais duas vezes o desvio padrão, ou inferiores à média inicial menos duas vezes o desvio padrão.\
+3. Calcula-se a média final com o novo conjunto de observações
+
+Qual o investimento básico que você daria como resposta?
+
+</div>
+
+Para isso, segue o bloco de comando abaixo
+
+```{r}
+m <- mean(Tab333$Invest)
+sd <- sd(Tab333$Invest)
+max <- m + 2*sd
+min <- m - 2*sd
+Tab333 %>% filter(Invest<max, Invest>min) -> NOVATABELA2 #filter e o %>% pertencem ao pacote dplyr
+rm(m, sd, max, min) #removando valores pra ficar com interface limpa e menos memória ocupada
+mean(NOVATABELA2$Invest) #média final já filtrada
+```
+
+Portando, o investimento básico deve ser de 16.77 valores.
+
+## **Statistical Methods For The Social Sciences - Cap3 - Exercício 3.6**
+
+<div>
+
+The OECD (Organization for Economic Cooperation and Development) consists of advanced, industrialized countries that accept the principles of representative democracy and a free market economy. Table 3.13 shows part of the OECD data file at the text website that has data on several variables for the 24 nations that made up the OECD before its recent enlargement to include nations that have recently undergone market economy reforms. The variables are gross domestic product (GDP, per capita in U.S. dollars), the Gini measure of inequality, a human development index (HDI, which has components referring to life expectancy at birth, educational attainment, and income per capita), an index of economic freedom, carbon dioxide emissions (CO2, per capita, in metric tons), and prison population (per 100,000 people). Using the complete data file from the text website: 
+
+</div>
+
+Para fazermos essa questão, preciamos baixar o pacote com os datasets usados no referido livro:
+
+```{r}
+install.packages('smss')
+library(smss)
+
+data(oecd.data)
+
+```
+
+<div>
+
+a\) Construct a stem-and-leaf plot of the GDP values, by rounding and reporting the values in thousands of dollars (e.g., replacing \$43,550 by 44).
+
+</div>
+
+Para arredondar os valores:
+
+```{r}
+oecd.data$gdprounded <- signif(oecd.data$GDP, digits = 2) #arredondamos valores em uma nova variável para não gerar confusão
+oecd.data$gdprounded <- oecd.data$gdprounded/1000 # não sei se tem uma função específica para isso, então usei /1000 mesmo hahaha...
+```
+
+Com a variável devidamente ajustada, vamos ao gráfico solicitado.
+
+```{r}
+stem(oecd.data$gdprounded, scale = 2)
+```
+
+O Diagrama de ramos e folhas é útil para estatística descritiva porquanto ele, semelhante ai histograma, facilita a visualização da distribuição de uma variável quantitativa.
+
+<div>
+
+b\) Construct a histogram. Interpret.
+
+</div>
+
+Nessa questão, vamos usar o potencial do ggplot2 e tentar fazer um gráfico rico e informativo para nossa interpretação:
+
+```{r}
+ggplot(oecd.data, aes(x=GDP)) + 
+  geom_histogram(color="black", fill="white", bins = 50)+ 
+  geom_vline(aes(xintercept=mean(GDP)),
+            color="blue", linetype="dashed", size=1)+
+  labs(title="Distribuição Gross domestic product (GDP) 2023", x="GDP", y = "Frequência", caption = "fonte: elaboração própria com dados do pacote smss") +
+  theme(plot.title = element_text(hjust = 0.5))
+  
+```
+
+O PIB é a soma da produção de bens e serviços de um país em um determinado período de tempo e é tomado como indicador para refletir a riqueza de uma região. É um dos indicadores mais conhecidos e usados na economia.
+
+Apesar de ser um dos menores países do planeta, tanto em área quanto em população, Luxemburgo é o país mais rico do mundo. Além de ser um dos principais centros bancários do mundo, conta com uma das forças de trabalho mais educadas e qualificadas do mundo, que contribuem para o crescimento do PIB do país
+
+No que tange às emissões de carbono, os países avançados, como EUA, Inglaterra, Bélgica, França, Alemanha e Itália, vêm se industrializando --- e gerando gases que alteram o clima no processo --- há cerca de 200 anos. Apesar da Revolução Industrial ter sido iniciada na Gã-Bretanha em meados do século XVIII precedendo o resto do mundo por cerca de um século é fundamental ressaltar que ao longo da história nenhum país do mundo lançou mais gases de efeito estufa na atmosfera do que os Estados Unidos.
+
+<div>
+
+c\) Identify the outlier in each plot.
+
+</div>
+
+Para identificar o outlier em cada variável:
+
+```{r}
+outgdp <- boxplot.stats(oecd.data$GDP)$out #descobrindo os outliers
+outgdp <- which(oecd.data$GDP %in% c(outgdp)) #achando os outliers na data
+oecd.data[outgdp, ] #listando os outliers
+
+# repetiremos o processo com outras variáveis
+
+outUnemploy <- boxplot.stats(oecd.data$Unemploy)$out
+outUnemploy <- which(oecd.data$Unemploy %in% c(outUnemploy))
+oecd.data[outUnemploy, ]
+
+outHealth <- boxplot.stats(oecd.data$Health)$out
+outHealth <- which(oecd.data$Health %in% c(outHealth))
+oecd.data[outHealth, ]
+
+#E assim consecutivamente....
+```
+
+## **Statistical Methods For The Social Sciences - Cap3 - Exercício 3.12**
+
+<div>
+
+3.12. Table 3.14 shows 2012 female economic activity (FEA) for countries in Eastern Europe. Construct plots and find summary statistics to compare these values with those from the Middle East in Table 3.4. Interpret.
+
+</div>
+
+Primeiramente, importar os dados:
+
+```{r}
+Tab312 <- read.csv("https://raw.githubusercontent.com/Milvann/deverdecasa/main/Tab312.csv") #importando tabela no formato csv, é possível usar o botão import na aba "enviroment" também.
+
+View(Tab312) # abrindo a tabela recém importada
+```
+
+```{r}
+aggregate(Tab312$FEA, list(Tab312$Location), FUN=mean) #média por grupo easteurope e middleast
+
+ggplot(Tab312, aes(x=Country, y=FEA, fill=Location)) +
+  geom_bar(stat="identity")+
+  geom_text(aes(label=FEA), vjust=1.6, color="white", size=3.5) +
+  theme(axis.text.x = element_text(angle = 90, hjust=1, vjust=0.3), plot.title = element_text(hjust = 0.5)) + #ajustando o eixo X
+  labs(title="Atividade Econômica Feminina por País", 
+         x="Países", y = "FEA", caption = "Fontes: Elaboração própria")
+```
+
+R: Em praticamente todas as medidas globais, as mulheres são mais excluídas economicamente do que os homens. As tendências apresentadas pelo Banco Mundial (2016) sugerem que a participação das mulheres na força de trabalho em todo o mundo nas últimas duas décadas estagnou, estima-se que os homens têm quase duas vezes mais probabilidades do que as mulheres de ter emprego.
+
+Essa realidade, torna-se ainda mais pungente em regiões como Oriente Médio e Norte de África onde o progresso na participação das mulheres na força de trabalho tem sido lento, tendo em vista as rígidas normas sociais relativas aos papéis de género presentes nessas regiões.
+
+Entretanto, quando comparadas as regiões os países europeus, tradicionalmente avançados em questões de gênero, apresentam maior proporção feminina em suas atividades econômicas.
+
+## **Statistical Methods For The Social Sciences - Cap3 - Exercício 3.48**
+
+<div>
+
+3.48. Table 3.18 shows reported happiness for those subjects in the 2014 GSS who attend religious services rarely and for those who attend frequently. (a) Identify the response variable and the explanatory variable. (b) At each level of religious attendance, find the percentage who reported being very happy. (c) Does there seem to be an association between these variables? Why?
+
+</div>
+
+Primeiramente, importar a tabela transcrita:
+
+```{r}
+Tab348 <- read.csv("https://raw.githubusercontent.com/Milvann/deverdecasa/main/Tab348.csv") #importando tabela no formato csv, é possível usar o botão import na aba "enviroment" também.
+
+View(Tab348) # abrindo a tabela recém importada
+```
+
+<div>
+
+\(a\) Identify the response variable and the explanatory variable.
+
+</div>
+
+Primeiramente, é importante destacar que uma análise entre duas associações se chama análise bivariada. A variável que define os níveis dessa análise é chamada de "*explanatory variable*". E a variável que está sendo analisada sob o prisma do nível da "*explanatory variable"* se chama"*response variable"*.
+
+Os autores deste livro preferem usar "*explanatory variable"* e"*response variable"* no lugar de, respectivamente, "*independent variable*" e "*dependent variable".* Segundo os autores é para não gerar dúvidas conceituais.
+
+Assim, na referida tabela, temos uma análise da felicidade sob uma perspectiva da assiduidade religiosa. Ou seja, nossa "*independent/explanatory variable"* é a assiduidade religiosa (Religiousatt) e a nossa"*dependent/response variable"* é a felicidade.
+
+<div>
+
+\(b\) At each level of religious attendance, find the percentage who reported being very happy.
+
+</div>
+
+Para isso, vamos usar algumas funções básicas para fazer uma tabela de contigência no R.
+
+```{r}
+Tab348veryhappy <- filter(Tab348, Happy == "veryhappy") #foi o jeito mais rápido que veio na minha cabeça fazer
+
+prop.table(table(Tab348veryhappy$Religiousatt, Tab348veryhappy$Happy))
+```
+
+Assim, 54% das pessoas muito felizes têm a assiduidade religiosa de uma vez por ano ou menos. E 45% das pessoas muito felizes têm assiduidade religiosa de pelo menos uma vez por semana. Contudo, essa proporção é suficiente para comprovar relação de causalidade ou dependência? Vamos observar isso na próxima questão.
+
+<div>
+
+\(c\) Does there seem to be an association between these variables? Why?
+
+</div>
+
+Há uma associação entre as variáveis? Vamos descobrir.
+
+```{r}
+Tab348ass <- table(Tab348$Religiousatt, Tab348$Happy)
+
+chisq.test(Tab348ass)
+```
+
+No teste de independência *chi-squared* obtemos um *p-value* muito alto, o que significa que não há associação entre as variáveis. Ou seja, a hipótese nula foi confirmada, portanto, assiduidade religiosa não afeta a felicidade.
+
