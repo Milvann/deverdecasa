@@ -25,3 +25,10 @@ estão na tabela a seguir. Como havia dúvidas quanto à adoção de um único c
 </div>
 
 **Antes de responder a questão precisamos importar a tabela exposta no livro. Foi necessário transcrever a tabela em formato csv e importar**
+
+```{r}
+Tab29 <- read.csv("Tab29.csv") #importando tabela no formato csv, é possível usar o botão import na aba "enviroment" também.
+
+View(Tab29) # abrindo a tabela recém importada
+
+```
