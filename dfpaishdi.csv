@@ -1,192 +1,192 @@
-Country;HDI;HDICat
-Switzerland;0.962;Very High
-Norway;0.961;Very High
-Iceland;0.959;Very High
-Hong Kong. China (SAR);0.952;Very High
-Australia;0.951;Very High
-Denmark;0.948;Very High
-Sweden;0.947;Very High
-Ireland;0.945;Very High
-Germany;0.942;Very High
-Netherlands;0.941;Very High
-Finland;0.94;Very High
-Singapore;0.939;Very High
-Belgium;0.937;Very High
-New Zealand;0.937;Very High
-Canada;0.936;Very High
-Liechtenstein;0.935;Very High
-Luxembourg;0.93;Very High
-United Kingdom;0.929;Very High
-Japan;0.925;Very High
-Korea (Republic of);0.925;Very High
-United States;0.921;Very High
-Israel;0.919;Very High
-Malta;0.918;Very High
-Slovenia;0.918;Very High
-Austria;0.916;Very High
-United Arab Emirates;0.911;Very High
-Spain;0.905;Very High
-France;0.903;Very High
-Cyprus;0.896;Very High
-Italy;0.895;Very High
-Estonia;0.89;Very High
-Czechia;0.889;Very High
-Greece;0.887;Very High
-Poland;0.876;Very High
-Bahrain;0.875;Very High
-Lithuania;0.875;Very High
-Saudi Arabia;0.875;Very High
-Portugal;0.866;Very High
-Latvia;0.863;Very High
-Andorra;0.858;Very High
-Croatia;0.858;Very High
-Chile;0.855;Very High
-Qatar;0.855;Very High
-San Marino;0.853;Very High
-Slovakia;0.848;Very High
-Hungary;0.846;Very High
-Argentina;0.842;Very High
-Türkiye;0.838;Very High
-Montenegro;0.832;Very High
-Kuwait;0.831;Very High
-Brunei Darussalam;0.829;Very High
-Russian Federation;0.822;Very High
-Romania;0.821;Very High
-Oman;0.816;Very High
-Bahamas;0.812;Very High
-Kazakhstan;0.811;Very High
-Trinidad and Tobago;0.81;Very High
-Costa Rica;0.809;Very High
-Uruguay;0.809;Very High
-Belarus;0.808;Very High
-Panama;0.805;Very High
-Malaysia;0.803;Very High
-Georgia;0.802;Very High
-Mauritius;0.802;Very High
-Serbia;0.802;Very High
-Thailand;0.8;Very High
-Albania;0.796;High
-Bulgaria;0.795;High
-Grenada;0.795;High
-Barbados;0.79;High
-Antigua and Barbuda;0.788;High
-Seychelles;0.785;High
-Sri Lanka;0.782;High
-Bosnia and Herzegovina;0.78;High
-Saint Kitts and Nevis;0.777;High
-Iran (Islamic Republic of);0.774;High
-Ukraine;0.773;High
-North Macedonia;0.77;High
-China;0.768;High
-Dominican Republic;0.767;High
-Moldova (Republic of);0.767;High
-Palau;0.767;High
-Cuba;0.764;High
-Peru;0.762;High
-Armenia;0.759;High
-Mexico;0.758;High
-Brazil;0.754;High
-Colombia;0.752;High
-Saint Vincent and the Grenadines;0.751;High
-Maldives;0.747;High
-Algeria;0.745;High
-Azerbaijan;0.745;High
-Tonga;0.745;High
-Turkmenistan;0.745;High
-Ecuador;0.74;High
-Mongolia;0.739;High
-Egypt;0.731;High
-Tunisia;0.731;High
-Fiji;0.73;High
-Suriname;0.73;High
-Uzbekistan;0.727;High
-Dominica;0.72;High
-Jordan;0.72;High
-Libya;0.718;High
-Paraguay;0.717;High
-Palestine State of;0.715;High
-Saint Lucia;0.715;High
-Guyana;0.714;High
-South Africa;0.713;High
-Jamaica;0.709;High
-Samoa;0.707;High
-Gabon;0.706;High
-Lebanon;0.706;High
-Indonesia;0.705;High
-Viet Nam;0.703;High
-Philippines;0.699;Medium
-Botswana;0.693;Medium
-Bolivia (Plurinational State of);0.692;Medium
-Kyrgyzstan;0.692;Medium
-Venezuela (Bolivarian Republic of);0.691;Medium
-Iraq;0.686;Medium
-Tajikistan;0.685;Medium
-Belize;0.683;Medium
-Morocco;0.683;Medium
-El Salvador;0.675;Medium
-Nicaragua;0.667;Medium
-Bhutan;0.666;Medium
-Cabo Verde;0.662;Medium
-Bangladesh;0.661;Medium
-Tuvalu;0.641;Medium
-Marshall Islands;0.639;Medium
-India;0.633;Medium
-Ghana;0.632;Medium
-Micronesia (Federated States of);0.628;Medium
-Guatemala;0.627;Medium
-Kiribati;0.624;Medium
-Honduras;0.621;Medium
-Sao Tome and Principe;0.618;Medium
-Namibia;0.615;Medium
-Lao People's Democratic Republic;0.607;Medium
-Timor-Leste;0.607;Medium
-Vanuatu;0.607;Medium
-Nepal;0.602;Medium
-Eswatini (Kingdom of);0.597;Medium
-Equatorial Guinea;0.596;Medium
-Cambodia;0.593;Medium
-Zimbabwe;0.593;Medium
-Angola;0.586;Medium
-Myanmar;0.585;Medium
-Syrian Arab Republic;0.577;Medium
-Cameroon;0.576;Medium
-Kenya;0.575;Medium
-Congo;0.571;Medium
-Zambia;0.565;Medium
-Solomon Islands;0.564;Medium
-Comoros;0.558;Medium
-Papua New Guinea;0.558;Medium
-Mauritania;0.556;Medium
-Côte d'Ivoire;0.55;Medium
-Tanzania (United Republic of);0.549;Low
-Pakistan;0.544;Low
-Togo;0.539;Low
-Haiti;0.535;Low
-Nigeria;0.535;Low
-Rwanda;0.534;Low
-Benin;0.525;Low
-Uganda;0.525;Low
-Lesotho;0.514;Low
-Malawi;0.512;Low
-Senegal;0.511;Low
-Djibouti;0.509;Low
-Sudan;0.508;Low
-Madagascar;0.501;Low
-Gambia;0.5;Low
-Ethiopia;0.498;Low
-Eritrea;0.492;Low
-Guinea-Bissau;0.483;Low
-Liberia;0.481;Low
-Congo (Democratic Republic of the);0.479;Low
-Afghanistan;0.478;Low
-Sierra Leone;0.477;Low
-Guinea;0.465;Low
-Yemen;0.455;Low
-Burkina Faso;0.449;Low
-Mozambique;0.446;Low
-Mali;0.428;Low
-Burundi;0.426;Low
-Central African Republic;0.404;Low
-Niger;0.4;Low
-Chad;0.394;Low
-South Sudan;0.385;Low
+Country,HDI,HDICat
+Switzerland,0.962,Very High
+Norway,0.961,Very High
+Iceland,0.959,Very High
+Hong Kong. China (SAR),0.952,Very High
+Australia,0.951,Very High
+Denmark,0.948,Very High
+Sweden,0.947,Very High
+Ireland,0.945,Very High
+Germany,0.942,Very High
+Netherlands,0.941,Very High
+Finland,0.94,Very High
+Singapore,0.939,Very High
+Belgium,0.937,Very High
+New Zealand,0.937,Very High
+Canada,0.936,Very High
+Liechtenstein,0.935,Very High
+Luxembourg,0.93,Very High
+United Kingdom,0.929,Very High
+Japan,0.925,Very High
+Korea (Republic of),0.925,Very High
+United States,0.921,Very High
+Israel,0.919,Very High
+Malta,0.918,Very High
+Slovenia,0.918,Very High
+Austria,0.916,Very High
+United Arab Emirates,0.911,Very High
+Spain,0.905,Very High
+France,0.903,Very High
+Cyprus,0.896,Very High
+Italy,0.895,Very High
+Estonia,0.89,Very High
+Czechia,0.889,Very High
+Greece,0.887,Very High
+Poland,0.876,Very High
+Bahrain,0.875,Very High
+Lithuania,0.875,Very High
+Saudi Arabia,0.875,Very High
+Portugal,0.866,Very High
+Latvia,0.863,Very High
+Andorra,0.858,Very High
+Croatia,0.858,Very High
+Chile,0.855,Very High
+Qatar,0.855,Very High
+San Marino,0.853,Very High
+Slovakia,0.848,Very High
+Hungary,0.846,Very High
+Argentina,0.842,Very High
+Türkiye,0.838,Very High
+Montenegro,0.832,Very High
+Kuwait,0.831,Very High
+Brunei Darussalam,0.829,Very High
+Russian Federation,0.822,Very High
+Romania,0.821,Very High
+Oman,0.816,Very High
+Bahamas,0.812,Very High
+Kazakhstan,0.811,Very High
+Trinidad and Tobago,0.81,Very High
+Costa Rica,0.809,Very High
+Uruguay,0.809,Very High
+Belarus,0.808,Very High
+Panama,0.805,Very High
+Malaysia,0.803,Very High
+Georgia,0.802,Very High
+Mauritius,0.802,Very High
+Serbia,0.802,Very High
+Thailand,0.8,Very High
+Albania,0.796,High
+Bulgaria,0.795,High
+Grenada,0.795,High
+Barbados,0.79,High
+Antigua and Barbuda,0.788,High
+Seychelles,0.785,High
+Sri Lanka,0.782,High
+Bosnia and Herzegovina,0.78,High
+Saint Kitts and Nevis,0.777,High
+Iran (Islamic Republic of),0.774,High
+Ukraine,0.773,High
+North Macedonia,0.77,High
+China,0.768,High
+Dominican Republic,0.767,High
+Moldova (Republic of),0.767,High
+Palau,0.767,High
+Cuba,0.764,High
+Peru,0.762,High
+Armenia,0.759,High
+Mexico,0.758,High
+Brazil,0.754,High
+Colombia,0.752,High
+Saint Vincent and the Grenadines,0.751,High
+Maldives,0.747,High
+Algeria,0.745,High
+Azerbaijan,0.745,High
+Tonga,0.745,High
+Turkmenistan,0.745,High
+Ecuador,0.74,High
+Mongolia,0.739,High
+Egypt,0.731,High
+Tunisia,0.731,High
+Fiji,0.73,High
+Suriname,0.73,High
+Uzbekistan,0.727,High
+Dominica,0.72,High
+Jordan,0.72,High
+Libya,0.718,High
+Paraguay,0.717,High
+Palestine State of,0.715,High
+Saint Lucia,0.715,High
+Guyana,0.714,High
+South Africa,0.713,High
+Jamaica,0.709,High
+Samoa,0.707,High
+Gabon,0.706,High
+Lebanon,0.706,High
+Indonesia,0.705,High
+Viet Nam,0.703,High
+Philippines,0.699,Medium
+Botswana,0.693,Medium
+Bolivia (Plurinational State of),0.692,Medium
+Kyrgyzstan,0.692,Medium
+Venezuela (Bolivarian Republic of),0.691,Medium
+Iraq,0.686,Medium
+Tajikistan,0.685,Medium
+Belize,0.683,Medium
+Morocco,0.683,Medium
+El Salvador,0.675,Medium
+Nicaragua,0.667,Medium
+Bhutan,0.666,Medium
+Cabo Verde,0.662,Medium
+Bangladesh,0.661,Medium
+Tuvalu,0.641,Medium
+Marshall Islands,0.639,Medium
+India,0.633,Medium
+Ghana,0.632,Medium
+Micronesia (Federated States of),0.628,Medium
+Guatemala,0.627,Medium
+Kiribati,0.624,Medium
+Honduras,0.621,Medium
+Sao Tome and Principe,0.618,Medium
+Namibia,0.615,Medium
+Lao People's Democratic Republic,0.607,Medium
+Timor-Leste,0.607,Medium
+Vanuatu,0.607,Medium
+Nepal,0.602,Medium
+Eswatini (Kingdom of),0.597,Medium
+Equatorial Guinea,0.596,Medium
+Cambodia,0.593,Medium
+Zimbabwe,0.593,Medium
+Angola,0.586,Medium
+Myanmar,0.585,Medium
+Syrian Arab Republic,0.577,Medium
+Cameroon,0.576,Medium
+Kenya,0.575,Medium
+Congo,0.571,Medium
+Zambia,0.565,Medium
+Solomon Islands,0.564,Medium
+Comoros,0.558,Medium
+Papua New Guinea,0.558,Medium
+Mauritania,0.556,Medium
+Côte d'Ivoire,0.55,Medium
+Tanzania (United Republic of),0.549,Low
+Pakistan,0.544,Low
+Togo,0.539,Low
+Haiti,0.535,Low
+Nigeria,0.535,Low
+Rwanda,0.534,Low
+Benin,0.525,Low
+Uganda,0.525,Low
+Lesotho,0.514,Low
+Malawi,0.512,Low
+Senegal,0.511,Low
+Djibouti,0.509,Low
+Sudan,0.508,Low
+Madagascar,0.501,Low
+Gambia,0.5,Low
+Ethiopia,0.498,Low
+Eritrea,0.492,Low
+Guinea-Bissau,0.483,Low
+Liberia,0.481,Low
+Congo (Democratic Republic of the),0.479,Low
+Afghanistan,0.478,Low
+Sierra Leone,0.477,Low
+Guinea,0.465,Low
+Yemen,0.455,Low
+Burkina Faso,0.449,Low
+Mozambique,0.446,Low
+Mali,0.428,Low
+Burundi,0.426,Low
+Central African Republic,0.404,Low
+Niger,0.4,Low
+Chad,0.394,Low
+South Sudan,0.385,Low
