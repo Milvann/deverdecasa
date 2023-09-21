@@ -1,192 +1,192 @@
-Country,HDI,HDICat,Gini
-Switzerland,0.962,Very High,33.1
-Norway,0.961,Very High,27.7
-Iceland,0.959,Very High,26.1
-Hong Kong. China (SAR),0.952,Very High,
-Australia,0.951,Very High,34.3
-Denmark,0.948,Very High,27.7
-Sweden,0.947,Very High,29.3
-Ireland,0.945,Very High,30.6
-Germany,0.942,Very High,31.7
-Netherlands,0.941,Very High,29.2
-Finland,0.940,Very High,27.7
-Singapore,0.939,Very High,
-Belgium,0.937,Very High,27.2
-New Zealand,0.937,Very High,
-Canada,0.936,Very High,33.3
-Liechtenstein,0.935,Very High,
-Luxembourg,0.930,Very High,34.2
-United Kingdom,0.929,Very High,35.1
-Japan,0.925,Very High,32.9
-Korea (Republic of),0.925,Very High,31.4
-United States,0.921,Very High,41.5
-Israel,0.919,Very High,38.6
-Malta,0.918,Very High,31.0
-Slovenia,0.918,Very High,24.4
-Austria,0.916,Very High,30.2
-United Arab Emirates,0.911,Very High,26.0
-Spain,0.905,Very High,34.3
-France,0.903,Very High,32.4
-Cyprus,0.896,Very High,31.2
-Italy,0.895,Very High,35.2
-Estonia,0.890,Very High,30.8
-Czechia,0.889,Very High,25.3
-Greece,0.887,Very High,33.1
-Poland,0.876,Very High,30.2
-Bahrain,0.875,Very High,
-Lithuania,0.875,Very High,35.3
-Saudi Arabia,0.875,Very High,
-Portugal,0.866,Very High,32.8
-Latvia,0.863,Very High,34.5
-Andorra,0.858,Very High,
-Croatia,0.858,Very High,28.9
-Chile,0.855,Very High,44.9
-Qatar,0.855,Very High,
-San Marino,0.853,Very High,
-Slovakia,0.848,Very High,23.2
-Hungary,0.846,Very High,30.0
-Argentina,0.842,Very High,42.3
-Turkiye,0.838,Very High,41.9
-Montenegro,0.832,Very High,36.8
-Kuwait,0.831,Very High,
-Brunei Darussalam,0.829,Very High,
-Russian Federation,0.822,Very High,36.0
-Romania,0.821,Very High,34.8
-Oman,0.816,Very High,
-Bahamas,0.812,Very High,
-Kazakhstan,0.811,Very High,27.8
-Trinidad and Tobago,0.810,Very High,
-Costa Rica,0.809,Very High,49.3
-Uruguay,0.809,Very High,40.2
-Belarus,0.808,Very High,24.4
-Panama,0.805,Very High,49.8
-Malaysia,0.803,Very High,41.1
-Georgia,0.802,Very High,34.5
-Mauritius,0.802,Very High,36.8
-Serbia,0.802,Very High,34.5
-Thailand,0.800,Very High,35.0
-Albania,0.796,High,30.8
-Bulgaria,0.795,High,40.3
-Grenada,0.795,High,
-Barbados,0.790,High,
-Antigua and Barbuda,0.788,High,
-Seychelles,0.785,High,32.1
-Sri Lanka,0.782,High,39.3
-Bosnia and Herzegovina,0.780,High,33.0
-Saint Kitts and Nevis,0.777,High,
-Iran (Islamic Republic of),0.774,High,40.9
-Ukraine,0.773,High,25.6
-North Macedonia,0.770,High,33.0
-China,0.768,High,38.2
-Dominican Republic,0.767,High,39.6
-Moldova (Republic of),0.767,High,26.0
-Palau,0.767,High,
-Cuba,0.764,High,
-Peru,0.762,High,43.8
-Armenia,0.759,High,25.2
-Mexico,0.758,High,45.4
-Brazil,0.754,High,48.9
-Colombia,0.752,High,54.2
-Saint Vincent and the Grenadines,0.751,High,
-Maldives,0.747,High,29.3
-Algeria,0.745,High,27.6
-Azerbaijan,0.745,High,
-Tonga,0.745,High,37.6
-Turkmenistan,0.745,High,
-Ecuador,0.740,High,47.3
-Mongolia,0.739,High,32.7
-Egypt,0.731,High,31.5
-Tunisia,0.731,High,32.8
-Fiji,0.730,High,30.7
-Suriname,0.730,High,
-Uzbekistan,0.727,High,
-Dominica,0.720,High,
-Jordan,0.720,High,33.7
-Libya,0.718,High,
-Paraguay,0.717,High,43.5
-Palestine. State of,0.715,High,33.7
-Saint Lucia,0.715,High,51.2
-Guyana,0.714,High,
-South Africa,0.713,High,63.0
-Jamaica,0.709,High,
-Samoa,0.707,High,38.7
-Gabon,0.706,High,38.0
-Lebanon,0.706,High,31.8
-Indonesia,0.705,High,37.3
-Viet Nam,0.703,High,35.7
-Philippines,0.699,Medium,42.3
-Botswana,0.693,Medium,53.3
-Bolivia (Plurinational State of),0.692,Medium,43.6
-Kyrgyzstan,0.692,Medium,29.0
-Venezuela (Bolivarian Republic of),0.691,Medium,
-Iraq,0.686,Medium,29.5
-Tajikistan,0.685,Medium,34.0
-Belize,0.683,Medium,
-Morocco,0.683,Medium,39.5
-El Salvador,0.675,Medium,38.8
-Nicaragua,0.667,Medium,46.2
-Bhutan,0.666,Medium,37.4
-Cabo Verde,0.662,Medium,42.4
-Bangladesh,0.661,Medium,32.4
-Tuvalu,0.641,Medium,39.1
-Marshall Islands,0.639,Medium,35.5
-India,0.633,Medium,35.7
-Ghana,0.632,Medium,43.5
-Micronesia (Federated States of),0.628,Medium,40.1
-Guatemala,0.627,Medium,48.3
-Kiribati,0.624,Medium,27.8
-Honduras,0.621,Medium,48.2
-Sao Tome and Principe,0.618,Medium,40.7
-Namibia,0.615,Medium,59.1
-Lao People's Democratic Republic,0.607,Medium,38.8
-Timor-Leste,0.607,Medium,28.7
-Vanuatu,0.607,Medium,32.3
-Nepal,0.602,Medium,32.8
-Eswatini (Kingdom of),0.597,Medium,54.6
-Equatorial Guinea,0.596,Medium,
-Cambodia,0.593,Medium,
-Zimbabwe,0.593,Medium,50.3
-Angola,0.586,Medium,51.3
-Myanmar,0.585,Medium,30.7
-Syrian Arab Republic,0.577,Medium,
-Cameroon,0.576,Medium,46.6
-Kenya,0.575,Medium,40.8
-Congo,0.571,Medium,48.9
-Zambia,0.565,Medium,57.1
-Solomon Islands,0.564,Medium,37.1
-Comoros,0.558,Medium,45.3
-Papua New Guinea,0.558,Medium,41.9
-Mauritania,0.556,Medium,32.6
-Cote d'Ivoire,0.550,Medium,37.2
-Tanzania (United Republic of),0.549,Low,40.5
-Pakistan,0.544,Low,29.6
-Togo,0.539,Low,42.4
-Haiti,0.535,Low,41.1
-Nigeria,0.535,Low,35.1
-Rwanda,0.534,Low,43.7
-Benin,0.525,Low,37.8
-Uganda,0.525,Low,42.7
-Lesotho,0.514,Low,44.9
-Malawi,0.512,Low,38.5
-Senegal,0.511,Low,38.1
-Djibouti,0.509,Low,41.6
-Sudan,0.508,Low,34.2
-Madagascar,0.501,Low,42.6
-Gambia,0.500,Low,35.9
-Ethiopia,0.498,Low,35.0
-Eritrea,0.492,Low,
-Guinea-Bissau,0.483,Low,34.8
-Liberia,0.481,Low,35.3
-Congo (Democratic Republic of the),0.479,Low,42.1
-Afghanistan,0.478,Low,
-Sierra Leone,0.477,Low,35.7
-Guinea,0.465,Low,29.6
-Yemen,0.455,Low,36.7
-Burkina Faso,0.449,Low,47.3
-Mozambique,0.446,Low,54.0
-Mali,0.428,Low,36.1
-Burundi,0.426,Low,38.6
-Central African Republic,0.404,Low,56.2
-Niger,0.400,Low,37.3
-Chad,0.394,Low,37.5
-South Sudan,0.385,Low,44.1
+Country,HDI,HDICat,Gini,IEI
+Switzerland,962,Very High,33.1,0.901789624466375
+Norway,961,Very High,27.7,0.911682434044789
+Iceland,959,Very High,26.1,0.93780235679638
+Hong Kong. China (SAR),952,Very High,,0.801654874419992
+Australia,951,Very High,34.3,0.895977678541192
+Denmark,948,Very High,27.7,0.908680888660578
+Sweden,947,Very High,29.3,0.884726795374128
+Ireland,945,Very High,30.6,0.855977176440973
+Germany,942,Very High,31.7,0.917110026964956
+Netherlands,941,Very High,29.2,0.874643451410162
+Finland,940,Very High,27.7,0.906677293378845
+Singapore,939,Very High,,0.770791709891034
+Belgium,937,Very High,27.2,0.85890639267049
+New Zealand,937,Very High,,0.914349021121558
+Canada,936,Very High,33.3,0.893491755125985
+Liechtenstein,935,Very High,,
+Luxembourg,930,Very High,34.2,0.794457703986345
+United Kingdom,929,Very High,35.1,0.901276810514977
+Japan,925,Very High,32.9,0.829187916693009
+Korea (Republic of),925,Very High,31.4,0.798628082402839
+United States,921,Very High,41.5,0.883421441350633
+Israel,919,Very High,38.6,0.834823050176445
+Malta,918,Very High,31.0,0.829326551211129
+Slovenia,918,Very High,24.4,0.898312619659705
+Austria,916,Very High,30.2,0.831700118557564
+United Arab Emirates,911,Very High,26.0,0.751114633295865
+Spain,905,Very High,34.3,0.717278210105073
+France,903,Very High,32.4,0.762427202070253
+Cyprus,896,Very High,31.2,0.768481069031234
+Italy,895,Very High,35.2,0.727432928179856
+Estonia,890,Very High,30.8,0.875959034656537
+Czechia,889,Very High,25.3,0.868480137827424
+Greece,887,Very High,33.1,0.776957973802573
+Poland,876,Very High,30.2,0.844602770186053
+Bahrain,875,Very High,,0.717756100353941
+Lithuania,875,Very High,35.3,0.870020526458353
+Saudi Arabia,875,Very High,,0.675699764939928
+Portugal,866,Very High,32.8,0.685007969332821
+Latvia,863,Very High,34.5,0.871960004332148
+Andorra,858,Very High,,0.649100737719889
+Croatia,858,Very High,28.9,0.79110498766733
+Chile,855,Very High,44.9,0.731917210934238
+Qatar,855,Very High,,0.607413523193348
+San Marino,853,Very High,,0.661795896358579
+Slovakia,848,Very High,23.2,0.818951376782456
+Hungary,846,Very High,30.0,0.80227359889953
+Argentina,842,Very High,42.3,0.817860363414783
+Türkiye,838,Very High,41.9,0.680296657354682
+Montenegro,832,Very High,36.8,0.760356890302632
+Kuwait,831,Very High,,0.521833246704701
+Brunei Darussalam,829,Very High,,
+Russian Federation,822,Very High,36.0,0.846178077356311
+Romania,821,Very High,34.8,0.729207161434883
+Oman,816,Very High,,0.698498877784325
+Bahamas,812,Very High,,0.725781801307695
+Kazakhstan,811,Very High,27.8,0.822601230117175
+Trinidad and Tobago,810,Very High,,
+Costa Rica,809,Very High,49.3,0.665891830160783
+Uruguay,809,Very High,40.2,0.716756412702336
+Belarus,808,Very High,24.4,0.803272265260023
+Panama,805,Very High,49.8,0.632865990811159
+Malaysia,803,Very High,41.1,0.637956875539153
+Georgia,802,Very High,34.5,0.835920608628194
+Mauritius,802,Very High,36.8,0.600554725253931
+Serbia,802,Very High,34.5,0.722950506521153
+Thailand,800,Very High,35.0,0.607924015310856
+Albania,796,High,30.8,0.681650021648453
+Bulgaria,795,High,40.3,0.721009486362388
+Grenada,795,High,,
+Barbados,790,High,,0.722478055417033
+Antigua and Barbuda,788,High,,..
+Seychelles,785,High,32.1,0.681442812350799
+Sri Lanka,782,High,39.3,0.66326605898705
+Bosnia and Herzegovina,780,High,33.0,0.625912977400166
+Saint Kitts and Nevis,777,High,,
+Iran (Islamic Republic of),774,High,40.9,0.7226196406497
+Ukraine,773,High,25.6,0.758199131989017
+North Macedonia,770,High,33.0,0.659194619757587
+China,768,High,38.2,0.573006839263573
+Dominican Republic,767,High,39.6,0.604944631199439
+Moldova (Republic of),767,High,26.0,0.774538201379353
+Palau,767,High,,0.836192399160823
+Cuba,764,High,,0.743392166966941
+Peru,762,High,43.8,0.648502992226289
+Armenia,759,High,25.2,0.72025288643334
+Mexico,758,High,45.4,0.62311983386168
+Brazil,754,High,48.9,0.594031696038752
+Colombia,752,High,54.2,0.594566835955248
+Saint Vincent and the Grenadines,751,High,,0.698218402318623
+Maldives,747,High,29.3,0.420588550025947
+Algeria,745,High,27.6,0.450528332255026
+Azerbaijan,745,High,,0.700451256254894
+Tonga,745,High,37.6,0.789970402121182
+Turkmenistan,745,High,,0.72047588965888
+Ecuador,740,High,47.3,0.606497573369691
+Mongolia,739,High,32.7,0.64346465032502
+Egypt,731,High,31.5,0.442698100350151
+Tunisia,731,High,32.8,0.468589264323777
+Fiji,730,High,30.7,0.753014773245881
+Suriname,730,High,,0.561625855766493
+Uzbekistan,727,High,,0.739018988971092
+Dominica,720,High,,
+Jordan,720,High,33.7,0.544520969554235
+Libya,718,High,,
+Paraguay,717,High,43.5,0.56986482614913
+Palestine. State of,715,High,33.7,0.625259927791932
+Saint Lucia,715,High,51.2,0.466862282401754
+Guyana,714,High,,0.568392683485958
+South Africa,713,High,63.0,0.626990962173472
+Jamaica,709,High,,0.633367852621361
+Samoa,707,High,38.7,0.674121098108994
+Gabon,706,High,38.0,0.516521380344667
+Lebanon,706,High,31.8,0.566801245423222
+Indonesia,705,High,37.3,0.552050557304383
+Viet Nam,703,High,35.7,0.541339897305432
+Philippines,699,Medium,42.3,0.596601517823939
+Botswana,693,Medium,53.3,0.52583370398732
+Bolivia (Plurinational State of),692,Medium,43.6,0.61990678246845
+Kyrgyzstan,692,Medium,29.0,0.720586663133972
+Venezuela (Bolivarian Republic of),691,Medium,,0.66327509202537
+Iraq,686,Medium,29.5,0.421020766592586
+Tajikistan,685,Medium,34.0,0.659118413930749
+Belize,683,Medium,,0.558658017336242
+Morocco,683,Medium,39.5,0.343140903023822
+El Salvador,675,Medium,38.8,0.449880366166551
+Nicaragua,667,Medium,46.2,0.437253041248198
+Bhutan,666,Medium,37.4,0.279422892031818
+Cabo Verde,662,Medium,42.4,0.40541681344178
+Bangladesh,661,Medium,32.4,0.370850545381317
+Tuvalu,641,Medium,39.1,0.557354740144623
+Marshall Islands,639,Medium,35.5,0.616265143643349
+India,633,Medium,35.7,0.348248732902132
+Ghana,632,Medium,43.5,0.397387690976944
+Micronesia (Federated States of),628,Medium,40.1,
+Guatemala,627,Medium,48.3,0.314023335122776
+Kiribati,624,Medium,27.8,0.5367426255494
+Honduras,621,Medium,48.2,0.405851947278595
+Sao Tome and Principe,618,Medium,40.7,0.470294928357683
+Namibia,615,Medium,59.1,0.428194326661084
+Lao People's Democratic Republic,607,Medium,38.8,0.316412631474398
+Timor-Leste,607,Medium,28.7,0.29288941419435
+Vanuatu,607,Medium,32.3,
+Nepal,602,Medium,32.8,0.311406907053118
+Eswatini (Kingdom of),597,Medium,54.6,0.431318200207949
+Equatorial Guinea,596,Medium,,
+Cambodia,593,Medium,,0.354859759277222
+Zimbabwe,593,Medium,50.3,0.535238100550138
+Angola,586,Medium,51.3,0.341448516493991
+Myanmar,585,Medium,30.7,0.37714123114593
+Syrian Arab Republic,577,Medium,,
+Cameroon,576,Medium,46.6,0.388647379532492
+Kenya,575,Medium,40.8,0.400107105410669
+Congo,571,Medium,48.9,0.433335696323611
+Zambia,565,Medium,57.1,0.432150513727328
+Solomon Islands,564,Medium,37.1,
+Comoros,558,Medium,45.3,0.26220025391854
+Papua New Guinea,558,Medium,41.9,0.286862682674081
+Mauritania,556,Medium,32.6,0.237724703937498
+Côte d'Ivoire,550,Medium,37.2,0.255555121667655
+Tanzania (United Republic of),549,Low,40.5,0.342252015528454
+Pakistan,544,Low,29.6,0.22121272617027
+Togo,539,Low,42.4,0.328152097978567
+Haiti,535,Low,41.1,0.284853118417778
+Nigeria,535,Low,35.1,0.310253315954585
+Rwanda,534,Low,43.7,0.333771376692797
+Benin,525,Low,37.8,0.249193946345482
+Uganda,525,Low,42.7,0.340944955196367
+Lesotho,514,Low,44.9,0.430215218180198
+Malawi,512,Low,38.5,0.361295708565014
+Senegal,511,Low,38.1,0.183400505042127
+Djibouti,509,Low,41.6,
+Sudan,508,Low,34.2,0.200292258360681
+Madagascar,501,Low,42.6,0.31950514296384
+Gambia,500,Low,35.9,0.220591845557233
+Ethiopia,498,Low,35.0,0.214498220630428
+Eritrea,492,Low,,
+Guinea-Bissau,483,Low,34.8,0.239912891770421
+Liberia,481,Low,35.3,0.265593329759531
+Congo (Democratic Republic of the),479,Low,42.1,0.371040793373858
+Afghanistan,478,Low,,0.210130533534424
+Sierra Leone,477,Low,35.7,0.21968128228607
+Guinea,465,Low,29.6,0.172457646633149
+Yemen,455,Low,36.7,0.193585924944511
+Burkina Faso,449,Low,47.3,0.197416309444633
+Mozambique,446,Low,54.0,0.232197040553831
+Mali,428,Low,36.1,0.158986938911541
+Burundi,426,Low,38.6,0.243355595502707
+Central African Republic,404,Low,56.2,0.238345398654551
+Niger,400,Low,37.3,0.171569512252085
+Chad,394,Low,37.5,0.176344367542556
+South Sudan,385,Low,44.1,0.208440908696365
